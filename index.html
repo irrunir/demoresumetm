@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+
+  <script>
+    document.onkeydown = function (e) {
+     if(e.keyCode == 123) {
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 85) {
+    return false;
+    }}
+    document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    });</script>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نام و نام خانوادگی</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/PTM.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+</head>
+
+<body class="vazir">
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="نام و نام خانوادگی" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">نام و نام خانوادگی</h1>
+
+          <p class="title">تخصص</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>اطلاعات</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">ایمیل من</p>
+
+              <a href="mailto:test@test.test" class="contact-link">ایمیل</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">شماره تماس</p>
+
+              <a href="tel:+981234567891" class="contact-link">تلفن شما</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">شروع فعالیت</p>
+
+              <time datetime="1982-06-23">۰۰۰۰/۰۰/۰۰</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">ملیت</p>
+
+              <address>ایرانی</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>درباره من</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="درباره من">
+
+        <header>
+          <h2 class="h2 article-title">درباره من</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+توضیحات درباره من یک
+          </p>
+
+          <p>
+توضیحات درباره من دو
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">مهارت‌های من</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">مهارت یک</h4>
+
+                <p class="service-item-text">
+توضیحات مهارت یک
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">مهارت دو</h4>
+
+                <p class="service-item-text">
+توضیحات مهارت دو
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">مهارت سه</h4>
+
+                <p class="service-item-text">
+توضیحات مهارت سه
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">مهارت چهار</h4>
+
+                <p class="service-item-text">
+                  توضیحات مهارت چهار
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+  <script src="js/script.js"></script>
+  <script src="js/PTM.js"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
